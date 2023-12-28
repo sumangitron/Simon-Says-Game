@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(52, 68, 159);
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+}
+
+.over {
+    background-color: red;
+}
